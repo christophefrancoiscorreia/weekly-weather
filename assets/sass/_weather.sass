@@ -1,0 +1,36 @@
+@import 'libs/mixins_cc'
+
+#myCity
+    border: none
+    border-bottom: 1px solid
+    width: 80%
+    display: block
+    background-color: transparent
+    text-align: center 
+    font-size: 1.25em
+    margin: 0.75em auto 0.25em
+    opacity: 0.75
+
+    &:focus
+        outline: none
+
+    +placeholder
+        color: white
+
+
+.container
+    padding: 0 15px
+    max-width: 1200px
+    width: 80%
+    margin: 0 auto
+
+.row
+    margin-left: -15px
+    margin-right: -15px
+    display: flex
+    flex-wrap: wrap
+
+.weather-block
+    width: 20%
+    text-align: center
+    padding: 15px
